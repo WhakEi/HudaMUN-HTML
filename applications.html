@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Applications - HudaMUN</title
+    ><meta property="og:title" content="Applications - HudaMUN" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "DM Sans";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./applications.css" rel="stylesheet" /><div
+        class="applications-container"
+        ><navbar1-wrapper
+          class="navbar1-wrapper"
+          rootclassname="navbar1undefined"
+          ><!--Navbar1 component--><header
+            class="navbar1-container navbar1root-class-name"
+            ><header data-thq="thq-navbar" class="navbar1-navbar-interactive"
+              ><div data-thq="thq-navbar-nav" class="navbar1-desktop-menu"
+                ><nav class="navbar1-links1"
+                  ><a
+                    href="index.html"
+                    class="navbar1-link11 thq-body-small thq-link"
+                    ><fragment class="applications-fragment10"
+                      ><span class="applications-text100">Home</span></fragment
+                    ></a
+                  ><a
+                    href="committees.html"
+                    class="navbar1-link31 thq-body-small thq-link"
+                    ><fragment class="applications-fragment11"
+                      ><span class="applications-text101"
+                        >Committees</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="applications.html"
+                    class="navbar1-link41 thq-body-small thq-link"
+                    ><fragment class="applications-fragment12"
+                      ><span class="applications-text102"
+                        >Applications
+                      </span></fragment
+                    ></a
+                  ></nav
+                ></div
+              ><div data-thq="thq-burger-menu" class="navbar1-burger-menu"
+                ><svg viewBox="0 0 1024 1024" class="navbar1-icon1">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg></div
+              ><div data-thq="thq-mobile-menu" class="navbar1-mobile-menu"
+                ><div class="navbar1-nav"
+                  ><div class="navbar1-top"
+                    ><div data-thq="thq-close-menu" class="navbar1-close-menu"
+                      ><svg viewBox="0 0 1024 1024" class="navbar1-icon3">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path></svg></div></div
+                  ><nav class="navbar1-links2"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      class="navbar1-link12 thq-body-small thq-link"
+                      ><fragment class="applications-fragment10"
+                        ><span class="applications-text100"
+                          >Home</span
+                        ></fragment
+                      ></a
+                    ><a
+                      href="https://www.teleporthq.io"
+                      class="navbar1-link32 thq-body-small thq-link"
+                      ><fragment class="applications-fragment11"
+                        ><span class="applications-text101"
+                          >Committees</span
+                        ></fragment
+                      ></a
+                    ><a
+                      href="/applications.html"
+                      class="navbar1-link42 thq-body-small thq-link"
+                      ><fragment class="applications-fragment12"
+                        ><span class="applications-text102"
+                          >Applications
+                        </span></fragment
+                      ></a
+                    ></nav
+                  ></div
+                ><div class="navbar1-icon-group"
+                  ><a
+                    href="https://www.instagram.com/hudamun25/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="navbar1-link"
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="navbar1-icon5 thq-icon-x-small"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg></a></div></div></header></header></navbar1-wrapper
+        ><banner-apps-wrapper
+          class="banner-apps-wrapper"
+          rootclassname="banner-appsundefined"
+          ><!--BannerApps component--><div
+            class="banner-apps-container thq-section-padding banner-appsroot-class-name"
+            ><div class="banner-apps-max-width thq-section-max-width"
+              ><h2 class="banner-apps-title thq-heading-2"
+                ><fragment class="applications-fragment13"
+                  ><span class="applications-text103"
+                    >Applications</span
+                  ></fragment
+                ></h2
+              ></div
+            ></div
+          ></banner-apps-wrapper
+        ><team14-wrapper class="team14-wrapper"
+          ><!--Team14 component--><div class="thq-section-padding"
+            ><div class="team14-max-width thq-section-max-width"
+              ><div class="team14-section-title"
+                ><div class="team14-content10"
+                  ><h2 class="thq-heading-2"
+                    ><fragment class="applications-fragment36"
+                      ><span class="applications-text204"
+                        >Application Types</span
+                      ></fragment
+                    ></h2
+                  ></div
+                ></div
+              ><div
+                data-thq="slider"
+                data-loop="true"
+                data-autoplay="false"
+                data-navigation="true"
+                data-pagination="true"
+                class="team14-slider1 swiper"
+                ><div data-thq="slider-wrapper" class="swiper-wrapper"
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide1 swiper-slide"
+                    ><div class="team14-card"
+                      ><div class="team14-content11"
+                        ><div class="team14-title10"
+                          ><span class="team14-text101 thq-body-small"
+                            ><fragment class="applications-fragment28"
+                              ><span class="applications-text196"
+                                >Delegate</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ><span class="team14-text102"
+                          ><fragment class="applications-fragment14"
+                            ><span class="applications-text104"
+                              ><span class="applications-text105"
+                                >Early: ###₺</span
+                              ><br class="applications-text106" /><span
+                                class="applications-text107"
+                                >Regular: ###₺</span
+                              ><br class="applications-text108" /><span
+                                class="applications-text109"
+                                >Late: ###₺</span
+                              ><br /></span></fragment></span
+                        ><a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdgk77JkSQJa9Xl_5Zc6Pa1gxfdvHDmZGHcQjk2HF38XJ3gVg/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="team14-link10 thq-button-filled"
+                          ><span
+                            ><fragment class="applications-fragment27"
+                              ><span class="applications-text195"
+                                >Apply</span
+                              ></fragment
+                            ></span
+                          ></a
+                        ></div
+                      ></div
+                    ><div class="team14-content12"
+                      ><div class="team14-title11"
+                        ><span class="team14-text104 thq-body-small"
+                          ><fragment class="applications-fragment37"
+                            ><span class="applications-text205"
+                              >Delegation</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text105"
+                        ><fragment class="applications-fragment15"
+                          ><span class="applications-text111"
+                            ><span class="applications-text112"
+                              >Early: ###₺</span
+                            ><br class="applications-text113" /><span
+                              class="applications-text114"
+                              >Regular: ###₺</span
+                            ><br class="applications-text115" /><span
+                              class="applications-text116"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfJser5TPhzcndHMeGMwo1Ej23Thz4W8PXjUdgSy_kEWbb4Ng/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link11 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment29"
+                            ><span class="applications-text197"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ><div class="team14-content13"
+                      ><div class="team14-title12"
+                        ><span class="team14-text107 thq-body-small"
+                          ><fragment class="applications-fragment38"
+                            ><span class="applications-text206"
+                              >Chairboard</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text108"
+                        ><fragment class="applications-fragment16"
+                          ><span class="applications-text118"
+                            ><span class="applications-text119"
+                              >Early: ###₺</span
+                            ><br class="applications-text120" /><span
+                              class="applications-text121"
+                              >Regular: ###₺</span
+                            ><br class="applications-text122" /><span
+                              class="applications-text123"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeXxIodTRbb0ZRO437wYvrw0POBZlLRCuSm3kjn5x0QE0iHeQ/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link12 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment30"
+                            ><span class="applications-text198"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide2 swiper-slide"
+                    ><div class="team14-content14"
+                      ><div class="team14-title13"
+                        ><span class="team14-text110 thq-body-small"
+                          ><fragment class="applications-fragment39"
+                            ><span class="applications-text207"
+                              >Crisis Team</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text111"
+                        ><fragment class="applications-fragment17"
+                          ><span class="applications-text125"
+                            ><span class="applications-text126"
+                              >Early: ###₺</span
+                            ><br class="applications-text127" /><span
+                              class="applications-text128"
+                              >Regular: ###₺</span
+                            ><br class="applications-text129" /><span
+                              class="applications-text130"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScez_3BDCKKweOKGAyWSoMaMaqjGLpE0pien8qp8aoSYo6MFg/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link13 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment31"
+                            ><span class="applications-text199"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ><div class="team14-content15"
+                      ><div class="team14-title14"
+                        ><span class="team14-text113 thq-body-small"
+                          ><fragment class="applications-fragment40"
+                            ><span class="applications-text208"
+                              >Admin Team</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text114"
+                        ><fragment class="applications-fragment18"
+                          ><span class="applications-text132"
+                            ><span class="applications-text133"
+                              >Early: ###₺</span
+                            ><br class="applications-text134" /><span
+                              class="applications-text135"
+                              >Regular: ###₺</span
+                            ><br class="applications-text136" /><span
+                              class="applications-text137"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScs_2m0aCrvMIBpaPR934CbuQI1gg1rdlPGkhhsyEFpFwH_fQ/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link14 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment32"
+                            ><span class="applications-text200"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ><div class="team14-content16"
+                      ><div class="team14-title15"
+                        ><span class="team14-text116 thq-body-small"
+                          ><fragment class="applications-fragment41"
+                            ><span class="applications-text209"
+                              >Press Team</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text117"
+                        ><fragment class="applications-fragment19"
+                          ><span class="applications-text139"
+                            ><span class="applications-text140"
+                              >Early: ###₺</span
+                            ><br class="applications-text141" /><span
+                              class="applications-text142"
+                              >Regular: ###₺</span
+                            ><br class="applications-text143" /><span
+                              class="applications-text144"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScaT6ZaTQxRNoIxC8MWhzK0-scJhN1nhKwal7pYTql1qtT8Xg/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link15 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment33"
+                            ><span class="applications-text201"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ><div class="team14-content17"
+                      ><div class="team14-title16"
+                        ><span class="team14-text119 thq-body-small"
+                          ><fragment class="applications-fragment42"
+                            ><span class="applications-text210"
+                              >Public Relations</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text120"
+                        ><fragment class="applications-fragment20"
+                          ><span class="applications-text146"
+                            ><span class="applications-text147"
+                              >Early: ###₺</span
+                            ><br class="applications-text148" /><span
+                              class="applications-text149"
+                              >Regular: ###₺</span
+                            ><br class="applications-text150" /><span
+                              class="applications-text151"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScgQIWIgmwid6UqL-UEWdflD3SBB369spGHV-QLhH58seJV7w/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link16 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment34"
+                            ><span class="applications-text202"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ></div
+                ><div
+                  data-thq="slider-pagination"
+                  class="team14-slider-pagination1 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div></div
+                ><div
+                  data-thq="slider-button-prev"
+                  class="swiper-button-prev"
+                ></div
+                ><div
+                  data-thq="slider-button-next"
+                  class="swiper-button-next"
+                ></div></div
+              ><div
+                data-thq="slider"
+                data-navigation="true"
+                data-pagination="true"
+                class="team14-slider2 swiper"
+                ><div data-thq="slider-wrapper" class="swiper-wrapper"
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide3 swiper-slide"
+                    ><div class="team14-content18"
+                      ><div class="team14-title17"
+                        ><span class="team14-text122 thq-body-small"
+                          ><fragment class="applications-fragment43"
+                            ><span class="applications-text211"
+                              >Delegate</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text123"
+                        ><fragment class="applications-fragment21"
+                          ><span class="applications-text153"
+                            ><span class="applications-text154"
+                              >Early: ###₺</span
+                            ><br class="applications-text155" /><span
+                              class="applications-text156"
+                              >Regular: ###₺</span
+                            ><br class="applications-text157" /><span
+                              class="applications-text158"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdgk77JkSQJa9Xl_5Zc6Pa1gxfdvHDmZGHcQjk2HF38XJ3gVg/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link17 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment35"
+                            ><span class="applications-text203"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide4 swiper-slide"
+                    ><div class="team14-content19"
+                      ><div class="team14-title18"
+                        ><span class="team14-text125 thq-body-small"
+                          ><fragment class="applications-fragment49"
+                            ><span class="applications-text217"
+                              >Delegation</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text126"
+                        ><fragment class="applications-fragment22"
+                          ><span class="applications-text160"
+                            ><span class="applications-text161"
+                              >Early: ###₺</span
+                            ><br class="applications-text162" /><span
+                              class="applications-text163"
+                              >Regular: ###₺</span
+                            ><br class="applications-text164" /><span
+                              class="applications-text165"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfJser5TPhzcndHMeGMwo1Ej23Thz4W8PXjUdgSy_kEWbb4Ng/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link18 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment44"
+                            ><span class="applications-text212"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide5 swiper-slide"
+                    ><div class="team14-content20"
+                      ><div class="team14-title19"
+                        ><span class="team14-text128 thq-body-small"
+                          ><fragment class="applications-fragment50"
+                            ><span class="applications-text218"
+                              >Chairboard</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text129"
+                        ><fragment class="applications-fragment23"
+                          ><span class="applications-text167"
+                            ><span class="applications-text168"
+                              >Early: ###₺</span
+                            ><br class="applications-text169" /><span
+                              class="applications-text170"
+                              >Regular: ###₺</span
+                            ><br class="applications-text171" /><span
+                              class="applications-text172"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeXxIodTRbb0ZRO437wYvrw0POBZlLRCuSm3kjn5x0QE0iHeQ/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link19 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment45"
+                            ><span class="applications-text213"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide6 swiper-slide"
+                    ><div class="team14-content21"
+                      ><div class="team14-title20"
+                        ><span class="team14-text131 thq-body-small"
+                          ><fragment class="applications-fragment51"
+                            ><span class="applications-text219"
+                              >Crisis Team</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text132"
+                        ><fragment class="applications-fragment24"
+                          ><span class="applications-text174"
+                            ><span class="applications-text175"
+                              >Early: ###₺</span
+                            ><br class="applications-text176" /><span
+                              class="applications-text177"
+                              >Regular: ###₺</span
+                            ><br class="applications-text178" /><span
+                              class="applications-text179"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScez_3BDCKKweOKGAyWSoMaMaqjGLpE0pien8qp8aoSYo6MFg/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link20 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment46"
+                            ><span class="applications-text214"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide7 swiper-slide"
+                    ><div class="team14-content22"
+                      ><div class="team14-title21"
+                        ><span class="team14-text134 thq-body-small"
+                          ><fragment class="applications-fragment52"
+                            ><span class="applications-text220"
+                              >Press Team</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text135"
+                        ><fragment class="applications-fragment25"
+                          ><span class="applications-text181"
+                            ><span class="applications-text182"
+                              >Early: ###₺</span
+                            ><br class="applications-text183" /><span
+                              class="applications-text184"
+                              >Regular: ###₺</span
+                            ><br class="applications-text185" /><span
+                              class="applications-text186"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScaT6ZaTQxRNoIxC8MWhzK0-scJhN1nhKwal7pYTql1qtT8Xg/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link21 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment47"
+                            ><span class="applications-text215"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ><div
+                    data-thq="slider-slide"
+                    class="team14-slider-slide8 swiper-slide"
+                    ><div class="team14-content23"
+                      ><div class="team14-title22"
+                        ><span class="team14-text137 thq-body-small"
+                          ><fragment class="applications-fragment53"
+                            ><span class="applications-text221"
+                              >Public Relations</span
+                            ></fragment
+                          ></span
+                        ></div
+                      ><span class="team14-text138"
+                        ><fragment class="applications-fragment26"
+                          ><span class="applications-text188"
+                            ><span class="applications-text189"
+                              >Early: ###₺</span
+                            ><br class="applications-text190" /><span
+                              class="applications-text191"
+                              >Regular: ###₺</span
+                            ><br class="applications-text192" /><span
+                              class="applications-text193"
+                              >Late: ###₺</span
+                            ><br /></span></fragment></span
+                      ><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScez_3BDCKKweOKGAyWSoMaMaqjGLpE0pien8qp8aoSYo6MFg/viewform?usp=header"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="team14-link22 thq-button-filled"
+                        ><span
+                          ><fragment class="applications-fragment48"
+                            ><span class="applications-text216"
+                              >Apply</span
+                            ></fragment
+                          ></span
+                        ></a
+                      ></div
+                    ></div
+                  ></div
+                ><div
+                  data-thq="slider-pagination"
+                  class="team14-slider-pagination2 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div
+                  ><div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div></div
+                ><div
+                  data-thq="slider-button-prev"
+                  class="swiper-button-prev"
+                ></div
+                ><div
+                  data-thq="slider-button-next"
+                  class="swiper-button-next"
+                ></div></div></div></div></team14-wrapper
+        ><footer1-wrapper
+          class="footer1-wrapper"
+          rootclassname="footer1undefined"
+          ><!--Footer1 component--><footer
+            class="footer1-footer1 thq-section-padding footer1root-class-name2"
+            ><div class="footer1-max-width thq-section-max-width"
+              ><div class="footer1-content"
+                ><div class="footer1-huda-mun"
+                  ><h1 class="footer1-text10"
+                    ><fragment class="applications-fragment61"
+                      ><span class="applications-text236"
+                        >HudaMUN</span
+                      ></fragment
+                    ></h1
+                  ></div
+                ><div class="footer1-links"
+                  ><div class="footer1-column11"
+                    ><strong class="footer1-column1-title1 thq-body-large"
+                      ><fragment class="applications-fragment62"
+                        ><span class="applications-text237"
+                          ><span>Address:</span><br /></span></fragment></strong
+                    ><div class="footer1-footer-links1"
+                      ><span class="footer1-text11"
+                        ><fragment class="applications-fragment54"
+                          ><span class="applications-text222"
+                            ><span>Kayabaşı, Ulubatlı Hasan Cd</span
+                            ><br /><br /><span>No: 9 D:1 D blok,</span
+                            ><br /><br /><span
+                              >34494 Başakşehir/İstanbul</span
+                            ></span
+                          ></fragment
+                        ></span
+                      ></div
+                    ></div
+                  ><div class="footer1-column12"
+                    ><strong class="footer1-column1-title2 thq-body-large"
+                      ><fragment class="applications-fragment64"
+                        ><span class="applications-text241"
+                          ><span>Contact:</span><br /></span></fragment></strong
+                    ><div class="footer1-footer-links2"
+                      ><span class="footer1-text12"
+                        ><fragment class="applications-fragment59"
+                          ><span class="applications-text234"
+                            >hudacouncil@gmail.com</span
+                          ></fragment
+                        ></span
+                      ></div
+                    ></div
+                  ><div class="footer1-column2"
+                    ><strong class="thq-body-large footer1-column2-title"
+                      ><fragment class="applications-fragment63"
+                        ><span class="applications-text240"
+                          >Column Two</span
+                        ></fragment
+                      ></strong
+                    ><div class="footer1-footer-links3"
+                      ><a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                        ><fragment class="applications-fragment55"
+                          ><span class="applications-text230"
+                            >Link 6</span
+                          ></fragment
+                        ></a
+                      ><a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                        ><fragment class="applications-fragment56"
+                          ><span class="applications-text231"
+                            >Link 7</span
+                          ></fragment
+                        ></a
+                      ><a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                        ><fragment class="applications-fragment57"
+                          ><span class="applications-text232"
+                            >Link 8</span
+                          ></fragment
+                        ></a
+                      ><a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                        ><fragment class="applications-fragment58"
+                          ><span class="applications-text233"
+                            >Link 9</span
+                          ></fragment
+                        ></a
+                      ><a
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="thq-body-small"
+                        ><fragment class="applications-fragment60"
+                          ><span class="applications-text235"
+                            >Link 10</span
+                          ></fragment
+                        ></a
+                      ></div
+                    ></div
+                  ><div class="footer1-column3"
+                    ><strong class="thq-body-large footer1-social-link1-title"
+                      ><fragment class="applications-fragment65"
+                        ><span class="applications-text244"
+                          >Follow Us</span
+                        ></fragment
+                      ></strong
+                    ><div class="footer1-social-links"
+                      ><a
+                        href="https://www.instagram.com/hudamun25/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer1-link1"
+                        ><div class="footer1-link2"
+                          ><svg
+                            viewBox="0 0 877.7142857142857 1024"
+                            class="thq-icon-small"
+                          >
+                            <path
+                              d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                            ></path></svg
+                          ><span class="thq-body-small">Instagram</span></div
+                        ></a
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></footer
+          ></footer1-wrapper
+        ></div
+      ></div
+    >
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

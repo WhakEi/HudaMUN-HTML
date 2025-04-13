@@ -1,0 +1,72 @@
+.banner-home-container1 {
+  gap: var(--dl-layout-space-unit);
+  height: 380px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000030;
+}
+ 
+.banner-home-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  padding-top: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+}
+ 
+.banner-home-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner-home-title {
+  color: #fac225;
+  font-size: 66px;
+  font-style: normal;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+ 
+.banner-home-text1 {
+  font-style: normal;
+  font-weight: 400;
+}
+ 
+.banner-home-navlink {
+  text-decoration: none;
+  background-color: #fac225;
+}
+ 
+.banner-home-fragment1 {
+  display: contents;
+}
+ 
+.banner-home-text3 {
+  display: inline-block;
+}
+ 
+.banner-home-fragment2 {
+  display: contents;
+}
+ 
+.banner-home-text4 {
+  color: rgb(250, 194, 37);
+  display: inline-block;
+}
+ 
+.banner-home-fragment3 {
+  display: contents;
+}
+ 
+.banner-home-text5 {
+  display: inline-block;
+}
