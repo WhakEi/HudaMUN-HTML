@@ -299,7 +299,7 @@
  
 @media(max-width: 479px) {
   .banner-home-max-width {
-    height: 50%;
+    height: 75%;
     padding-top: 0px;
     padding-bottom: 0px;
   }
