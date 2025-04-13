@@ -1,17 +1,22 @@
 .banner-home-container1 {
   gap: var(--dl-layout-space-unit);
-  height: 380px;
+  height: 480px;
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
+  background-size: auto;
+  justify-content: center;
   background-color: #000030;
+  background-image: url("public/2880px-city_lights_2012_-_flat_map_crop-1500w.jpg");
+  background-repeat: space;
+  background-position: center;
 }
  
 .banner-home-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
-  height: 100%;
+  height: 363px;
   display: flex;
   z-index: 100;
   align-items: center;
@@ -26,6 +31,11 @@
   z-index: 100;
   align-items: center;
   flex-direction: column;
+}
+ 
+.banner-home-image {
+  width: 200px;
+  object-fit: cover;
 }
  
 .banner-home-title {
@@ -69,4 +79,15 @@
  
 .banner-home-text5 {
   display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .banner-home-max-width {
+    height: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .banner-home-title {
+    font-size: 54px;
+  }
 }

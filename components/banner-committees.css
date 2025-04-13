@@ -5,6 +5,7 @@
   position: relative;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-color: #000030;
 }
  
@@ -48,3 +49,16 @@
 
  
 
+ 
+@media(max-width: 479px) {
+  .banner-committees-max-width {
+    height: 50%;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+  }
+  .banner-committees-title {
+    font-size: 54px;
+  }
+}
