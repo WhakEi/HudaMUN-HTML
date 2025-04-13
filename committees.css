@@ -188,8 +188,16 @@
     padding: var(--dl-layout-space-unit);
     padding-right: 16px;
   }
+  .navbar1-icon1 {
+    width: 24px;
+    height: 24px;
+  }
   .navbar1-mobile-menu {
     padding: var(--dl-layout-space-unit);
+  }
+  .navbar1-icon3 {
+    width: 24px;
+    height: 24px;
   }
 }
 
