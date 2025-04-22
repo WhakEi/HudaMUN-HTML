@@ -1641,7 +1641,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(0, 0, 48, 0.59);
+  background-color: rgba(0, 0, 173, 0.51);
 }
  
 .footer1-max-width {
@@ -1909,11 +1909,11 @@
 }
  
 .footer1root-class-name {
-  background-color: rgba(0, 0, 48, 0.59);
+  background-color: rgba(0, 0, 173, 0.51);
 }
  
 .footer1root-class-name1 {
-  background-color: rgba(0, 0, 48, 0.59);
+  background-color: rgba(0, 0, 173, 0.51);
 }
  
 
