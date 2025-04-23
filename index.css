@@ -227,8 +227,15 @@
   background-image: url("public/2880px-city_lights_2012_-_flat_map_crop-1500w.jpg");
   background-repeat: space;
   background-position: center;
+  padding-top: var(--dl-layout-space-twounits);
 }
  
+@media(max-width: 479px) {
+  .banner-home-container1 {
+    padding-top: 0px;
+  }
+}
+
 .banner-home-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -236,7 +243,6 @@
   display: flex;
   z-index: 100;
   align-items: center;
-  padding-top: var(--dl-layout-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-layout-space-unit);
 }
@@ -250,7 +256,7 @@
 }
  
 .banner-home-image {
-  width: 200px;
+  width: 250px;
   object-fit: cover;
 }
  
