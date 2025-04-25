@@ -1,7 +1,7 @@
 .navbar1-wrapper {
   display: contents;
 }
- 
+
 .navbar1-container {
   width: 100%;
   display: flex;
@@ -9,7 +9,7 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .navbar1-navbar-interactive {
   width: 100%;
   height: 117px;
@@ -21,13 +21,13 @@
   padding-bottom: var(--dl-layout-space-twounits);
   justify-content: space-between;
 }
- 
+
 .navbar1-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
- 
+
 .navbar1-links1 {
   gap: var(--dl-layout-space-twounits);
   flex: 1;
@@ -38,31 +38,31 @@
   flex-direction: row;
   justify-content: center;
 }
- 
+
 .navbar1-link11 {
   font-size: 24px;
   text-decoration: none;
 }
- 
+
 .navbar1-link31 {
   font-size: 24px;
   text-decoration: none;
 }
- 
+
 .navbar1-link41 {
   font-size: 24px;
   text-decoration: none;
 }
- 
+
 .navbar1-burger-menu {
   display: none;
 }
- 
+
 .navbar1-icon1 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
- 
+
 .navbar1-mobile-menu {
   top: 0px;
   left: 0px;
@@ -76,13 +76,13 @@
   justify-content: space-between;
   background-color: var(--dl-color-theme-neutral-light);
 }
- 
+
 .navbar1-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .navbar1-top {
   width: 100%;
   display: flex;
@@ -90,18 +90,18 @@
   margin-bottom: var(--dl-layout-space-threeunits);
   justify-content: space-between;
 }
- 
+
 .navbar1-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
- 
+
 .navbar1-icon3 {
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
- 
+
 .navbar1-links2 {
   gap: var(--dl-layout-space-unit);
   flex: 0 0 auto;
@@ -110,65 +110,57 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .navbar1-link12 {
   text-decoration: none;
 }
- 
+
 .navbar1-link32 {
   text-decoration: none;
 }
- 
+
 .navbar1-link42 {
   text-decoration: none;
 }
- 
+
 .navbar1-icon-group {
   gap: var(--dl-layout-space-twounits);
   display: flex;
 }
- 
+
 .navbar1-link {
   display: contents;
 }
- 
+
 .navbar1-icon5 {
   text-decoration: none;
 }
- 
+
 .applications-fragment11 {
   display: contents;
 }
- 
+
 .applications-text101 {
   display: inline-block;
 }
- 
+
 .applications-fragment12 {
   display: contents;
 }
- 
+
 .applications-text102 {
   display: inline-block;
 }
- 
+
 .applications-fragment10 {
   display: contents;
 }
- 
+
 .applications-text100 {
   display: inline-block;
 }
- 
 
- 
-
- 
-
- 
-
- 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .navbar1-navbar-interactive {
     padding-left: var(--dl-layout-space-twounits);
     padding-right: var(--dl-layout-space-twounits);
@@ -182,8 +174,8 @@
     justify-content: center;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .navbar1-navbar-interactive {
     padding: var(--dl-layout-space-unit);
     padding-right: 16px;
@@ -213,7 +205,7 @@
 .banner-apps-wrapper {
   display: contents;
 }
- 
+
 .banner-apps-container {
   gap: var(--dl-layout-space-unit);
   height: 380px;
@@ -224,7 +216,7 @@
   justify-content: center;
   background-color: #000030;
 }
- 
+
 .banner-apps-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -237,7 +229,7 @@
   padding-bottom: var(--dl-layout-space-unit);
   justify-content: center;
 }
- 
+
 .banner-apps-title {
   top: 0px;
   left: 0px;
@@ -253,18 +245,16 @@
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .applications-fragment13 {
   display: contents;
 }
- 
+
 .applications-text103 {
   display: inline-block;
 }
- 
 
- 
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .banner-apps-max-width {
     width: 100%;
     height: 50%;
@@ -281,7 +271,7 @@
 .team14-wrapper {
   display: contents;
 }
- 
+
 .team14-max-width {
   gap: var(--dl-layout-space-twounits);
   height: auto;
@@ -289,7 +279,7 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team14-section-title {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -298,14 +288,14 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .team14-content10 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team14-slider1 {
   width: 100%;
   height: auto;
@@ -313,7 +303,7 @@
   position: relative;
   align-self: center;
 }
- 
+
 .team14-slider-slide1 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -321,7 +311,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-card {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -330,7 +320,7 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-content11 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -340,11 +330,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title10 {
   display: block;
 }
- 
+
 .team14-text101 {
   display: block;
   font-size: 50px;
@@ -354,16 +344,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text102 {
   text-align: center;
 }
- 
+
 .team14-link10 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-content12 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -373,11 +363,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title11 {
   display: block;
 }
- 
+
 .team14-text104 {
   display: block;
   font-size: 50px;
@@ -387,16 +377,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text105 {
   text-align: center;
 }
- 
+
 .team14-link11 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-content13 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -406,11 +396,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title12 {
   display: block;
 }
- 
+
 .team14-text107 {
   display: block;
   font-size: 50px;
@@ -420,16 +410,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text108 {
   text-align: center;
 }
- 
+
 .team14-link12 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide2 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -437,7 +427,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content14 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -447,11 +437,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title13 {
   display: block;
 }
- 
+
 .team14-text110 {
   display: block;
   font-size: 50px;
@@ -461,16 +451,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text111 {
   text-align: center;
 }
- 
+
 .team14-link13 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-content15 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -480,11 +470,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title14 {
   display: block;
 }
- 
+
 .team14-text113 {
   display: block;
   font-size: 50px;
@@ -494,16 +484,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text114 {
   text-align: center;
 }
- 
+
 .team14-link14 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-content16 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -513,11 +503,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title15 {
   display: block;
 }
- 
+
 .team14-text116 {
   display: block;
   font-size: 50px;
@@ -527,16 +517,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text117 {
   text-align: center;
 }
- 
+
 .team14-link15 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-content17 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -546,11 +536,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title16 {
   display: block;
 }
- 
+
 .team14-text119 {
   display: block;
   font-size: 50px;
@@ -560,27 +550,27 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text120 {
   text-align: center;
 }
- 
+
 .team14-link16 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-pagination1 {
   display: block;
 }
- 
+
 .team14-slider2 {
   width: 100%;
   height: auto;
   display: none;
   position: relative;
 }
- 
+
 .team14-slider-slide3 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -588,7 +578,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content18 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -598,11 +588,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title17 {
   display: block;
 }
- 
+
 .team14-text122 {
   display: block;
   font-size: 45px;
@@ -612,16 +602,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text123 {
   text-align: center;
 }
- 
+
 .team14-link17 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide4 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -629,7 +619,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content19 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -639,11 +629,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title18 {
   display: block;
 }
- 
+
 .team14-text125 {
   display: block;
   font-size: 45px;
@@ -653,16 +643,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text126 {
   text-align: center;
 }
- 
+
 .team14-link18 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide5 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -670,7 +660,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content20 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -680,11 +670,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title19 {
   display: block;
 }
- 
+
 .team14-text128 {
   display: block;
   font-size: 45px;
@@ -694,16 +684,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text129 {
   text-align: center;
 }
- 
+
 .team14-link19 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide6 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -711,7 +701,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content21 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -721,11 +711,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title20 {
   display: block;
 }
- 
+
 .team14-text131 {
   display: block;
   font-size: 45px;
@@ -735,16 +725,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text132 {
   text-align: center;
 }
- 
+
 .team14-link20 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide7 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -752,7 +742,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content22 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -762,11 +752,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title21 {
   display: block;
 }
- 
+
 .team14-text134 {
   display: block;
   font-size: 45px;
@@ -776,16 +766,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text135 {
   text-align: center;
 }
- 
+
 .team14-link21 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-slide8 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -793,7 +783,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content23 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -803,11 +793,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title22 {
   display: block;
 }
- 
+
 .team14-text137 {
   display: block;
   font-size: 45px;
@@ -817,799 +807,799 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text138 {
   text-align: center;
 }
- 
+
 .team14-link22 {
   text-decoration: none;
   background-color: #fac225;
 }
- 
+
 .team14-slider-pagination2 {
   display: block;
 }
- 
+
 .applications-fragment33 {
   display: contents;
 }
- 
+
 .applications-text201 {
   display: inline-block;
 }
- 
+
 .applications-fragment22 {
   display: contents;
 }
- 
+
 .applications-text160 {
   display: inline-block;
 }
- 
+
 .applications-text161 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text162 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text163 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text164 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text165 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment51 {
   display: contents;
 }
- 
+
 .applications-text219 {
   display: inline-block;
 }
- 
+
 .applications-fragment28 {
   display: contents;
 }
- 
+
 .applications-text196 {
   display: inline-block;
 }
- 
+
 .applications-fragment53 {
   display: contents;
 }
- 
+
 .applications-text221 {
   display: inline-block;
 }
- 
+
 .applications-fragment43 {
   display: contents;
 }
- 
+
 .applications-text211 {
   display: inline-block;
 }
- 
+
 .applications-fragment16 {
   display: contents;
 }
- 
+
 .applications-text118 {
   display: inline-block;
 }
- 
+
 .applications-text119 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text120 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text121 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text122 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text123 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment42 {
   display: contents;
 }
- 
+
 .applications-text210 {
   display: inline-block;
 }
- 
+
 .applications-fragment45 {
   display: contents;
 }
- 
+
 .applications-text213 {
   display: inline-block;
 }
- 
+
 .applications-fragment36 {
   display: contents;
 }
- 
+
 .applications-text204 {
   display: inline-block;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .applications-fragment38 {
   display: contents;
 }
- 
+
 .applications-text206 {
   display: inline-block;
 }
- 
+
 .applications-fragment26 {
   display: contents;
 }
- 
+
 .applications-text188 {
   display: inline-block;
 }
- 
+
 .applications-text189 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text190 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text191 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text192 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text193 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment40 {
   display: contents;
 }
- 
+
 .applications-text208 {
   display: inline-block;
 }
- 
+
 .applications-fragment52 {
   display: contents;
 }
- 
+
 .applications-text220 {
   display: inline-block;
 }
- 
+
 .applications-fragment41 {
   display: contents;
 }
- 
+
 .applications-text209 {
   display: inline-block;
 }
- 
+
 .applications-fragment47 {
   display: contents;
 }
- 
+
 .applications-text215 {
   display: inline-block;
 }
- 
+
 .applications-fragment35 {
   display: contents;
 }
- 
+
 .applications-text203 {
   display: inline-block;
 }
- 
+
 .applications-fragment17 {
   display: contents;
 }
- 
+
 .applications-text125 {
   display: inline-block;
 }
- 
+
 .applications-text126 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text127 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text128 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text129 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text130 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment37 {
   display: contents;
 }
- 
+
 .applications-text205 {
   display: inline-block;
 }
- 
+
 .applications-fragment25 {
   display: contents;
 }
- 
+
 .applications-text181 {
   display: inline-block;
 }
- 
+
 .applications-text182 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text183 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text184 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text185 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text186 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment48 {
   display: contents;
 }
- 
+
 .applications-text216 {
   display: inline-block;
 }
- 
+
 .applications-fragment34 {
   display: contents;
 }
- 
+
 .applications-text202 {
   display: inline-block;
 }
- 
+
 .applications-fragment18 {
   display: contents;
 }
- 
+
 .applications-text132 {
   display: inline-block;
 }
- 
+
 .applications-text133 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text134 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text135 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text136 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text137 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment20 {
   display: contents;
 }
- 
+
 .applications-text146 {
   display: inline-block;
 }
- 
+
 .applications-text147 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text148 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text149 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text150 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text151 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment19 {
   display: contents;
 }
- 
+
 .applications-text139 {
   display: inline-block;
 }
- 
+
 .applications-text140 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text141 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text142 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text143 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text144 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment24 {
   display: contents;
 }
- 
+
 .applications-text174 {
   display: inline-block;
 }
- 
+
 .applications-text175 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text176 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text177 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text178 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text179 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment31 {
   display: contents;
 }
- 
+
 .applications-text199 {
   display: inline-block;
 }
- 
+
 .applications-fragment49 {
   display: contents;
 }
- 
+
 .applications-text217 {
   display: inline-block;
 }
- 
+
 .applications-fragment14 {
   display: contents;
 }
- 
+
 .applications-text104 {
   display: inline-block;
 }
- 
+
 .applications-text105 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text106 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text107 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text108 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text109 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment27 {
   display: contents;
 }
- 
+
 .applications-text195 {
   display: inline-block;
 }
- 
+
 .applications-fragment44 {
   display: contents;
 }
- 
+
 .applications-text212 {
   display: inline-block;
 }
- 
+
 .applications-fragment30 {
   display: contents;
 }
- 
+
 .applications-text198 {
   display: inline-block;
 }
- 
+
 .applications-fragment32 {
   display: contents;
 }
- 
+
 .applications-text200 {
   display: inline-block;
 }
- 
+
 .applications-fragment15 {
   display: contents;
 }
- 
+
 .applications-text111 {
   display: inline-block;
 }
- 
+
 .applications-text112 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text113 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text114 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text115 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text116 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment23 {
   display: contents;
 }
- 
+
 .applications-text167 {
   display: inline-block;
 }
- 
+
 .applications-text168 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text169 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text170 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text171 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text172 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment29 {
   display: contents;
 }
- 
+
 .applications-text197 {
   display: inline-block;
 }
- 
+
 .applications-fragment46 {
   display: contents;
 }
- 
+
 .applications-text214 {
   display: inline-block;
 }
- 
+
 .applications-fragment39 {
   display: contents;
 }
- 
+
 .applications-text207 {
   display: inline-block;
 }
- 
+
 .applications-fragment50 {
   display: contents;
 }
- 
+
 .applications-text218 {
   display: inline-block;
 }
- 
+
 .applications-fragment21 {
   display: contents;
 }
- 
+
 .applications-text153 {
   display: inline-block;
 }
- 
+
 .applications-text154 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text155 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text156 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text157 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text158 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .team14-max-width {
     padding: var(--dl-layout-space-threeunits);
   }
@@ -1620,8 +1610,8 @@
     display: block;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .team14-max-width {
     padding: var(--dl-layout-space-oneandhalfunits);
   }
@@ -1630,7 +1620,7 @@
 .footer1-wrapper {
   display: contents;
 }
- 
+
 .footer1-footer1 {
   width: 100%;
   height: auto;
@@ -1643,14 +1633,14 @@
   justify-content: center;
   background-color: rgba(0, 0, 173, 0.51);
 }
- 
+
 .footer1-max-width {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .footer1-content {
   gap: var(--dl-layout-space-fourunits);
   width: 100%;
@@ -1660,7 +1650,7 @@
   flex-shrink: 0;
   border-radius: var(--dl-layout-radius-radius4);
 }
- 
+
 .footer1-huda-mun {
   gap: 24px;
   width: 500px;
@@ -1670,7 +1660,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .footer1-text10 {
   top: 0px;
   bottom: 0px;
@@ -1679,7 +1669,7 @@
   font-size: 3em;
   align-self: center;
 }
- 
+
 .footer1-links {
   gap: var(--dl-layout-space-twounits);
   width: 854px;
@@ -1687,7 +1677,7 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
- 
+
 .footer1-column11 {
   gap: var(--dl-layout-space-unit);
   width: auto;
@@ -1699,11 +1689,11 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .footer1-column1-title1 {
   align-self: center;
 }
- 
+
 .footer1-footer-links1 {
   gap: var(--dl-layout-space-halfunit);
   height: 205px;
@@ -1712,12 +1702,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .footer1-text11 {
   align-self: center;
   text-align: center;
 }
- 
+
 .footer1-column12 {
   gap: var(--dl-layout-space-unit);
   width: auto;
@@ -1729,11 +1719,11 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .footer1-column1-title2 {
   align-self: center;
 }
- 
+
 .footer1-footer-links2 {
   gap: var(--dl-layout-space-halfunit);
   height: 205px;
@@ -1742,11 +1732,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .footer1-text12 {
   align-self: center;
 }
- 
+
 .footer1-column2 {
   gap: var(--dl-layout-space-unit);
   width: auto;
@@ -1758,7 +1748,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .footer1-footer-links3 {
   gap: var(--dl-layout-space-halfunit);
   display: flex;
@@ -1766,7 +1756,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .footer1-column3 {
   gap: var(--dl-layout-space-unit);
   width: auto;
@@ -1778,7 +1768,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .footer1-social-links {
   gap: var(--dl-layout-space-halfunit);
   display: flex;
@@ -1786,11 +1776,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
- 
+
 .footer1-link1 {
   display: contents;
 }
- 
+
 .footer1-link2 {
   gap: 12px;
   display: flex;
@@ -1800,11 +1790,11 @@
   flex-shrink: 0;
   text-decoration: none;
 }
- 
+
 .applications-fragment54 {
   display: contents;
 }
- 
+
 .applications-text222 {
   display: inline-block;
   font-size: 18px;
@@ -1812,123 +1802,117 @@
   font-family: "DM Sans";
   font-weight: 300;
 }
- 
+
 .applications-fragment65 {
   display: contents;
 }
- 
+
 .applications-text244 {
   display: inline-block;
 }
- 
+
 .applications-fragment57 {
   display: contents;
 }
- 
+
 .applications-text232 {
   display: inline-block;
 }
- 
+
 .applications-fragment59 {
   display: contents;
 }
- 
+
 .applications-text234 {
   display: inline-block;
   font-size: 18px;
 }
- 
+
 .applications-fragment60 {
   display: contents;
 }
- 
+
 .applications-text235 {
   display: inline-block;
 }
- 
+
 .applications-fragment61 {
   display: contents;
 }
- 
+
 .applications-text236 {
   display: inline-block;
 }
- 
+
 .applications-fragment58 {
   display: contents;
 }
- 
+
 .applications-text233 {
   display: inline-block;
 }
- 
+
 .applications-fragment63 {
   display: contents;
 }
- 
+
 .applications-text240 {
   display: inline-block;
 }
- 
+
 .applications-fragment62 {
   display: contents;
 }
- 
+
 .applications-text237 {
   display: inline-block;
   font-size: 24px;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .applications-fragment64 {
   display: contents;
 }
- 
+
 .applications-text241 {
   display: inline-block;
   font-size: 24px;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .applications-fragment56 {
   display: contents;
 }
- 
+
 .applications-text231 {
   display: inline-block;
 }
- 
+
 .applications-fragment55 {
   display: contents;
 }
- 
+
 .applications-text230 {
   display: inline-block;
 }
- 
+
 .footer1root-class-name {
   background-color: rgba(0, 0, 173, 0.51);
 }
- 
+
 .footer1root-class-name1 {
   background-color: rgba(0, 0, 173, 0.51);
 }
- 
 
- 
-
- 
-
- 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .footer1-huda-mun {
     width: 300px;
   }
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .footer1-content {
     flex-direction: column;
   }
@@ -1977,8 +1961,8 @@
     align-self: center;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .footer1-links {
     flex-direction: column;
   }
@@ -2032,821 +2016,821 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .applications-fragment10 {
   display: contents;
 }
- 
+
 .applications-text100 {
   display: inline-block;
 }
- 
+
 .applications-fragment11 {
   display: contents;
 }
- 
+
 .applications-text101 {
   display: inline-block;
 }
- 
+
 .applications-fragment12 {
   display: contents;
 }
- 
+
 .applications-text102 {
   display: inline-block;
 }
- 
+
 .applications-fragment13 {
   display: contents;
 }
- 
+
 .applications-text103 {
   display: inline-block;
 }
- 
+
 .applications-fragment14 {
   display: contents;
 }
- 
+
 .applications-text104 {
   display: inline-block;
 }
- 
+
 .applications-text105 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text106 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text107 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text108 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text109 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment15 {
   display: contents;
 }
- 
+
 .applications-text111 {
   display: inline-block;
 }
- 
+
 .applications-text112 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text113 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text114 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text115 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text116 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment16 {
   display: contents;
 }
- 
+
 .applications-text118 {
   display: inline-block;
 }
- 
+
 .applications-text119 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text120 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text121 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text122 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text123 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment17 {
   display: contents;
 }
- 
+
 .applications-text125 {
   display: inline-block;
 }
- 
+
 .applications-text126 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text127 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text128 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text129 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text130 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment18 {
   display: contents;
 }
- 
+
 .applications-text132 {
   display: inline-block;
 }
- 
+
 .applications-text133 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text134 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text135 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text136 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text137 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment19 {
   display: contents;
 }
- 
+
 .applications-text139 {
   display: inline-block;
 }
- 
+
 .applications-text140 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text141 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text142 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text143 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text144 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment20 {
   display: contents;
 }
- 
+
 .applications-text146 {
   display: inline-block;
 }
- 
+
 .applications-text147 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text148 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text149 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text150 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text151 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment21 {
   display: contents;
 }
- 
+
 .applications-text153 {
   display: inline-block;
 }
- 
+
 .applications-text154 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text155 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text156 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text157 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text158 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment22 {
   display: contents;
 }
- 
+
 .applications-text160 {
   display: inline-block;
 }
- 
+
 .applications-text161 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text162 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text163 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text164 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text165 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment23 {
   display: contents;
 }
- 
+
 .applications-text167 {
   display: inline-block;
 }
- 
+
 .applications-text168 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text169 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text170 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text171 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text172 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment24 {
   display: contents;
 }
- 
+
 .applications-text174 {
   display: inline-block;
 }
- 
+
 .applications-text175 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text176 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text177 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text178 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text179 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment25 {
   display: contents;
 }
- 
+
 .applications-text181 {
   display: inline-block;
 }
- 
+
 .applications-text182 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text183 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text184 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text185 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text186 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment26 {
   display: contents;
 }
- 
+
 .applications-text188 {
   display: inline-block;
 }
- 
+
 .applications-text189 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text190 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text191 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text192 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-text193 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .applications-fragment27 {
   display: contents;
 }
- 
+
 .applications-text195 {
   display: inline-block;
 }
- 
+
 .applications-fragment28 {
   display: contents;
 }
- 
+
 .applications-text196 {
   display: inline-block;
 }
- 
+
 .applications-fragment29 {
   display: contents;
 }
- 
+
 .applications-text197 {
   display: inline-block;
 }
- 
+
 .applications-fragment30 {
   display: contents;
 }
- 
+
 .applications-text198 {
   display: inline-block;
 }
- 
+
 .applications-fragment31 {
   display: contents;
 }
- 
+
 .applications-text199 {
   display: inline-block;
 }
- 
+
 .applications-fragment32 {
   display: contents;
 }
- 
+
 .applications-text200 {
   display: inline-block;
 }
- 
+
 .applications-fragment33 {
   display: contents;
 }
- 
+
 .applications-text201 {
   display: inline-block;
 }
- 
+
 .applications-fragment34 {
   display: contents;
 }
- 
+
 .applications-text202 {
   display: inline-block;
 }
- 
+
 .applications-fragment35 {
   display: contents;
 }
- 
+
 .applications-text203 {
   display: inline-block;
 }
- 
+
 .applications-fragment36 {
   display: contents;
 }
- 
+
 .applications-text204 {
   display: inline-block;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .applications-fragment37 {
   display: contents;
 }
- 
+
 .applications-text205 {
   display: inline-block;
 }
- 
+
 .applications-fragment38 {
   display: contents;
 }
- 
+
 .applications-text206 {
   display: inline-block;
 }
- 
+
 .applications-fragment39 {
   display: contents;
 }
- 
+
 .applications-text207 {
   display: inline-block;
 }
- 
+
 .applications-fragment40 {
   display: contents;
 }
- 
+
 .applications-text208 {
   display: inline-block;
 }
- 
+
 .applications-fragment41 {
   display: contents;
 }
- 
+
 .applications-text209 {
   display: inline-block;
 }
- 
+
 .applications-fragment42 {
   display: contents;
 }
- 
+
 .applications-text210 {
   display: inline-block;
 }
- 
+
 .applications-fragment43 {
   display: contents;
 }
- 
+
 .applications-text211 {
   display: inline-block;
 }
- 
+
 .applications-fragment44 {
   display: contents;
 }
- 
+
 .applications-text212 {
   display: inline-block;
 }
- 
+
 .applications-fragment45 {
   display: contents;
 }
- 
+
 .applications-text213 {
   display: inline-block;
 }
- 
+
 .applications-fragment46 {
   display: contents;
 }
- 
+
 .applications-text214 {
   display: inline-block;
 }
- 
+
 .applications-fragment47 {
   display: contents;
 }
- 
+
 .applications-text215 {
   display: inline-block;
 }
- 
+
 .applications-fragment48 {
   display: contents;
 }
- 
+
 .applications-text216 {
   display: inline-block;
 }
- 
+
 .applications-fragment49 {
   display: contents;
 }
- 
+
 .applications-text217 {
   display: inline-block;
 }
- 
+
 .applications-fragment50 {
   display: contents;
 }
- 
+
 .applications-text218 {
   display: inline-block;
 }
- 
+
 .applications-fragment51 {
   display: contents;
 }
- 
+
 .applications-text219 {
   display: inline-block;
 }
- 
+
 .applications-fragment52 {
   display: contents;
 }
- 
+
 .applications-text220 {
   display: inline-block;
 }
- 
+
 .applications-fragment53 {
   display: contents;
 }
- 
+
 .applications-text221 {
   display: inline-block;
 }
- 
+
 .applications-fragment54 {
   display: contents;
 }
- 
+
 .applications-text222 {
   display: inline-block;
   font-size: 18px;
@@ -2854,98 +2838,98 @@
   font-family: "DM Sans";
   font-weight: 300;
 }
- 
+
 .applications-fragment55 {
   display: contents;
 }
- 
+
 .applications-text230 {
   display: inline-block;
 }
- 
+
 .applications-fragment56 {
   display: contents;
 }
- 
+
 .applications-text231 {
   display: inline-block;
 }
- 
+
 .applications-fragment57 {
   display: contents;
 }
- 
+
 .applications-text232 {
   display: inline-block;
 }
- 
+
 .applications-fragment58 {
   display: contents;
 }
- 
+
 .applications-text233 {
   display: inline-block;
 }
- 
+
 .applications-fragment59 {
   display: contents;
 }
- 
+
 .applications-text234 {
   display: inline-block;
   font-size: 18px;
 }
- 
+
 .applications-fragment60 {
   display: contents;
 }
- 
+
 .applications-text235 {
   display: inline-block;
 }
- 
+
 .applications-fragment61 {
   display: contents;
 }
- 
+
 .applications-text236 {
   display: inline-block;
 }
- 
+
 .applications-fragment62 {
   display: contents;
 }
- 
+
 .applications-text237 {
   display: inline-block;
   font-size: 24px;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .applications-fragment63 {
   display: contents;
 }
- 
+
 .applications-text240 {
   display: inline-block;
 }
- 
+
 .applications-fragment64 {
   display: contents;
 }
- 
+
 .applications-text241 {
   display: inline-block;
   font-size: 24px;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .applications-fragment65 {
   display: contents;
 }
- 
+
 .applications-text244 {
   display: inline-block;
 }
