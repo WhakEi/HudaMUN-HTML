@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /components/
+Sitemap: https://hudamun.club/sitemap.xml
