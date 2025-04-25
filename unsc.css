@@ -322,6 +322,12 @@
   background-image: url("public/arab2.jpg");
 }
 
+.app-component-slider-slide3 {
+  display: flex;
+  background-size: 100%;
+  background-image: url("public/unsc3.jpeg");
+}
+
 .app-component-slider-pagination {
   display: none;
 }
