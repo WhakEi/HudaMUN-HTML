@@ -190,6 +190,7 @@
     padding-right: 16px;
   }
   .navbar1-icon1 {
+    fill: #ffffff;
     width: 24px;
     height: 24px;
   }
@@ -197,6 +198,7 @@
     padding: var(--dl-layout-space-unit);
   }
   .navbar1-icon3 {
+    fill: #000000;
     width: 24px;
     height: 24px;
   }

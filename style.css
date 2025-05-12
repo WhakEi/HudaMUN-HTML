@@ -207,7 +207,7 @@
 }
 
 .thq-body-small {
-  font-size: 16px;
+  font-size: 22px;
   font-family: "DM Sans";
   line-height: 1.5;
 }
@@ -384,8 +384,8 @@
   overflow: hidden;
   background: linear-gradient(
     to right,
-    var(--dl-color-theme-primary2) 50%,
-    var(--dl-color-theme-neutral-light) 50%
+    var(--dl-color-theme-secondary1) 50%,
+    var(--dl-color-theme-primary2) 50%
   );
   transition: background-position 300ms ease;
   font-weight: 600;
