@@ -896,33 +896,40 @@
   }
   .team3-member-image1 {
     height: auto;
+    width: 100%;
   }
   .team3-member-image2 {
     height: auto;
+    width: 100%;
   }
   .team3-row2 {
     flex-direction: column;
   }
   .team3-member-image3 {
     height: auto;
+    width: 100%;
   }
   .team3-member-image4 {
     height: auto;
+    width: 100%;
   }
   .team3-row3 {
     flex-direction: column;
   }
   .team3-member-image5 {
     height: auto;
+    width: 100%;
   }
   .team3-member-image6 {
     height: auto;
+    width: 100%;
   }
   .team3-row4 {
     flex-direction: column;
   }
   .team3-member-image7 {
     height: auto;
+    width: 100%;
   }
   .team3root-class-name {
     align-self: center;
