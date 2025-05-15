@@ -84,6 +84,33 @@
   flex-direction: column;
 }
 
+#countdown {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.countdown-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+}
+.countdown-item span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.countdown-item small {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #ddd;
+}
+
 .navbar1-top {
   width: 100%;
   display: flex;
@@ -213,13 +240,13 @@
 
 .banner-home-container1 {
   gap: var(--dl-layout-space-unit);
-  height: 480px;
+  height: 600px;
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
   background-size: auto;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #000030;
   background-image: url("public/2880px-city_lights_2012_-_flat_map_crop-1500w.jpg");
   background-repeat: space;
