@@ -1,166 +1,96 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-  <head>
-    <title>Committees - HudaMUN</title>
-    <meta property="og:title" content="Committees - HudaMUN" />
-    <meta name="description" content="Explore the committees at HudaMUN'25." />
-    <meta property="og:description" content="Explore the committees at HudaMUN'25." />
-    <meta name= "author" content="HudaMUN Head of IT" />
-    <meta name="robots" content="index, follow">
-    <meta property="og:url" content="https://hudamun.club/committees.html" />
-    <meta property="og:site_name" content="HudaMUN">
-    <meta property="og:type" content="website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta property="og:image" content="public/hudamun-logo.png" />
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Committees - HudaMUN</title>
+  <meta property="og:title" content="Committees - HudaMUN" />
+  <meta name="description" content="Explore the committees at HudaMUN'25." />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta property="og:image" content="public/hudamun-logo.png" />
 
-    <style data-tag="reset-style-sheet">
-      html {
-        line-height: 1.15;
-      }
-      body {
-        margin: 0;
-      }
-      * {
-        box-sizing: border-box;
-        border-width: 0;
-        border-style: solid;
-        -webkit-font-smoothing: antialiased;
-      }
-      p,
-      li,
-      ul,
-      pre,
-      div,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      figure,
-      blockquote,
-      figcaption {
-        margin: 0;
-        padding: 0;
-      }
-      button {
-        background-color: transparent;
-      }
-      button,
-      input,
-      optgroup,
-      select,
-      textarea {
-        font-family: inherit;
-        font-size: 100%;
-        line-height: 1.15;
-        margin: 0;
-      }
-      button,
-      select {
-        text-transform: none;
-      }
-      button,
-      [type="button"],
-      [type="reset"],
-      [type="submit"] {
-        -webkit-appearance: button;
-        color: inherit;
-      }
-      button::-moz-focus-inner,
-      [type="button"]::-moz-focus-inner,
-      [type="reset"]::-moz-focus-inner,
-      [type="submit"]::-moz-focus-inner {
-        border-style: none;
-        padding: 0;
-      }
-      button:-moz-focus,
-      [type="button"]:-moz-focus,
-      [type="reset"]:-moz-focus,
-      [type="submit"]:-moz-focus {
-        outline: 1px dotted ButtonText;
-      }
-      a {
-        color: inherit;
-        text-decoration: inherit;
-      }
-      input {
-        padding: 2px 4px;
-      }
-      img {
-        display: block;
-      }
-      details {
-        display: block;
-        margin: 0;
-        padding: 0;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
-      [data-thq="accordion"] [data-thq="accordion-content"] {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease-in-out;
-        padding: 0;
-      }
-      [data-thq="accordion"]
-        details[data-thq="accordion-trigger"][open]
-        + [data-thq="accordion-content"] {
-        max-height: 1000vh;
-      }
-      details[data-thq="accordion-trigger"][open]
-        summary
-        [data-thq="accordion-icon"] {
-        transform: rotate(180deg);
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: "DM Sans";
-        font-size: 16px;
-      }
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
 
-      body {
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background: var(--dl-color-theme-neutral-light);
-        fill: var(--dl-color-theme-secondary1);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./committees.css" rel="stylesheet" />
-      <div class="committees-container">
-        <navbar1-wrapper
+  <style>
+    :root {
+      --primary: var(--dl-color-theme-primary1);
+      --neutral-light: var(--dl-color-theme-neutral-light);
+      --neutral-dark: var(--dl-color-theme-neutral-dark);
+      --card-bg: #fff;
+      --card-radius: 18px;
+      --card-shadow: 0 4px 24px rgba(36,44,62,0.12), 0 1.5px 4px rgba(36,44,62,0.07);
+      --btn-bg: #001f3f;
+      --btn-hover: #00509e;
+      --unit: var(--dl-layout-space-unit);
+      --two: var(--dl-layout-space-twounits);
+    }
+    html { font-family: "DM Sans", sans-serif; scroll-behavior: smooth; }
+    body { margin: 0; color: var(--neutral-dark); background: var(--neutral-light); }
+
+    .navbar1-wrapper { display: contents; }
+    .navbar1-navbar-interactive { background: var(--primary); height: 117px; padding: var(--two) var(--two); display: flex; align-items: center; justify-content: space-between; }
+    .navbar1-desktop-menu { flex:1; display:flex; justify-content:center; gap:var(--two); }
+    .navbar1-links1 a { font-size:24px; color:#fff; text-decoration:none; }
+    .navbar1-burger-menu, .navbar1-mobile-menu { display:none; }
+    @media (max-width:767px) {
+      .navbar1-desktop-menu { display:none; }
+      .navbar1-burger-menu, .navbar1-mobile-menu { display:flex; }
+    }
+
+    .banner-committees-container { height:380px; display:flex; align-items:center; justify-content:center; background:#000030; }
+    .banner-committees-title { color:#fac225; font-size:60px; font-weight:700; }
+
+    .committees-section { max-width:1200px; margin:2rem auto; padding:0 1rem; }
+    .committees-grid { display:grid; gap:2rem; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); }
+    .committee-card {
+      background: var(--card-bg);
+      border-radius: var(--card-radius);
+      box-shadow: var(--card-shadow);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      padding:2rem 1.2rem 1.5rem;
+      transition: transform .18s, box-shadow .18s;
+    }
+    .committee-card:hover {
+      transform: translateY(-6px) scale(1.025);
+      box-shadow:0 8px 32px rgba(36,44,62,0.16),0 4px 16px rgba(36,44,62,0.11);
+    }
+    .committee-img {
+      width:100px; height:100px; object-fit:cover; border-radius:12px; margin-bottom:1rem;
+    }
+    .committee-title { font-size:1.25rem; font-weight:700; margin-bottom:.25rem; text-align:center; }
+    .committee-desc { font-size:.98rem; color:#495057; text-align:center; margin-bottom:1.2rem; min-height:2.6em; }
+    .committee-btn {
+      margin-top:auto;
+      background:var(--btn-bg);
+      color:#fff;
+      font-size:1rem;
+      font-weight:600;
+      padding:.45rem 1.25rem;
+      border:none;
+      border-radius:5px;
+      text-decoration:none;
+      transition:background .18s;
+    }
+    .committee-btn:hover { background:var(--btn-hover); }
+
+    footer1-wrapper { display:contents; }
+    .footer1-footer1 { background:var(--primary); color:#fff; padding:2rem 1rem; display:flex; flex-direction:column; align-items:center; }
+    @media (max-width:600px) {
+      .committees-grid { gap:1rem; }
+      .committee-card { padding:1.2rem .7rem 1rem; }
+      .committee-img { width:80px; height:80px; }
+    }
+  </style>
+</head>
+<body>
+   <navbar1-wrapper
           class="navbar1-wrapper"
           rootclassname="navbar1undefined"
           ><!--Navbar1 component-->
@@ -252,224 +182,62 @@
                 </div>
               </div>
             </header></header></navbar1-wrapper
-        ><banner-committees-wrapper
-          class="banner-committees-wrapper"
-          rootclassname="banner-committeesundefined"
-          ><!--BannerCommittees component-->
-          <div
-            class="banner-committees-container thq-section-padding banner-committeesroot-class-name1"
-          >
-            <div class="banner-committees-max-width thq-section-max-width">
-              <h2 class="banner-committees-title thq-heading-2">
-                <fragment class="committees-fragment13"
-                  ><span class="committees-text13">Committees</span></fragment
-                >
-              </h2>
-            </div>
-          </div></banner-committees-wrapper
-        ><team3-wrapper class="team3-wrapper" rootclassname="team3undefined"
-          ><!--Team3 component-->
-          <div class="thq-section-padding team3root-class-name team3-team12">
-            <div class="team3-max-width thq-section-max-width">
-              <div class="team3-content1">
-                <div class="team3-content2">
-                  <div class="team3-row1">
-                    <div class="team3-card1">
-                      <div class="team3-content3">
-                        <span class="team3-text10 thq-body-small"
-                          ><fragment class="committees-fragment25"
-                            ><span class="committees-text37"
-                              >MSCC</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="MSCC"
-                        src="public/court mun-800w.png"
-                        class="team3-member-image1 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button1">
-                        <a
-                          href="mscc.html"
-                          class="team3-navlink thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment20"
-                              ><span class="committees-text30"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="team3-card2">
-                      <div class="team3-content4">
-                        <span class="team3-text12 thq-body-small"
-                          ><fragment class="committees-fragment21"
-                            ><span class="committees-text33"
-                              >UNODC</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="UNODC"
-                        src="public/unodc-800w.png"
-                        class="team3-member-image2 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button2">
-                        <a
-                          href="unodc.html"
-                          class="team3-link1 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment16"
-                              ><span class="committees-text18"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team3-row2">
-                    <div class="team3-card3">
-                      <div class="team3-content5">
-                        <span class="team3-text14 thq-body-small"
-                          ><fragment class="committees-fragment22"
-                            ><span class="committees-text34"
-                              >H-UNSC</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="UNSC"
-                        src="public/un-logo-800w.png"
-                        class="team3-member-image3 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button3">
-                        <a
-                          href="unsc.html"
-                          class="team3-link2 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment17"
-                              ><span class="committees-text21"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="team3-card4">
-                      <div class="team3-content6">
-                        <span class="team3-text16 thq-body-small"
-                          ><fragment class="committees-fragment24"
-                            ><span class="committees-text36"
-                              >HCC
-                            </span></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="HCC"
-                        src="public/sy-800w.png"
-                        class="team3-member-image4 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button4">
-                        <a href="hcc.html" class="team3-link3 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment19"
-                              ><span class="committees-text27"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team3-row3">
-                    <div class="team3-card5">
-                      <div class="team3-content7">
-                        <span class="team3-text18 thq-body-small"
-                          ><fragment class="committees-fragment23"
-                            ><span class="committees-text35"
-                              >JCC</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="JCC"
-                        src="public/cons%20wall-800w.png"
-                        class="team3-member-image5 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button5">
-                        <a href="jcc.html" class="team3-link4 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment18"
-                              ><span class="committees-text24"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="team3-card6">
-                      <div class="team3-content8">
-                        <span class="team3-text20 thq-body-small"
-                          ><fragment class="committees-fragment15"
-                            ><span class="committees-text17"
-                              >SPECPOL</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="SPECPOL"
-                        src="public/specpol-800w.png"
-                        class="team3-member-image6 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button6">
-                        <a
-                          href="specpol.html"
-                          class="team3-link5 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment14"
-                              ><span class="committees-text14"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="team3-row4">
-                    <div class="team3-card7">
-                      <div class="team3-content9">
-                        <span class="team3-text22 thq-body-small"
-                          ><fragment class="committees-fragment26"
-                            ><span class="committees-text38"
-                              >UNSCPDG</span
-                            ></fragment
-                          ></span
-                        >
-                      </div>
-                      <img
-                        alt="UNSCPDG"
-                        src="public/un-logo-800w.png"
-                        class="team3-member-image7 thq-img-ratio-1-1"
-                      />
-                      <div class="team3-button7">
-                        <a
-                          href="unscpdg.html"
-                          class="team3-link6 thq-button-filled"
-                          ><span
-                            ><fragment class="committees-fragment27"
-                              ><span class="committees-text39"
-                                ><span>Learn More</span
-                                ><br /></span></fragment></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div></div></team3-wrapper
-        ><footer1-wrapper
+        >
+
+  <banner-committees-wrapper class="banner-committees-wrapper">
+    <div class="banner-committees-container">
+      <h2 class="banner-committees-title">Committees</h2>
+    </div>
+  </banner-committees-wrapper>
+
+  <section class="committees-section">
+    <div class="committees-grid">
+      <div class="committee-card">
+        <img src="public/court mun-800w.png" alt="MSCC" class="committee-img" />
+        <div class="committee-title">MSCC</div>
+        <div class="committee-desc">Model Security Council Court — Simulate international justice and conflict resolution.</div>
+        <a href="mscc.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/unodc-800w.png" alt="UNODC" class="committee-img" />
+        <div class="committee-title">UNODC</div>
+        <div class="committee-desc">United Nations Office on Drugs and Crime — Address global challenges in crime and justice.</div>
+        <a href="unodc.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/un-logo-800w.png" alt="H-UNSC" class="committee-img" />
+        <div class="committee-title">H-UNSC</div>
+        <div class="committee-desc">Historical United Nations Security Council — Tackle world crises as diplomats from the past.</div>
+        <a href="unsc.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/sy-800w.png" alt="HCC" class="committee-img" />
+        <div class="committee-title">HCC</div>
+        <div class="committee-desc">Historical Crisis Committee — Experience decision-making in rapidly developing scenarios.</div>
+        <a href="hcc.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/cons wall-800w.png" alt="JCC" class="committee-img" />
+        <div class="committee-title">JCC</div>
+        <div class="committee-desc">Joint Crisis Committee — Engage in dynamic negotiations between multiple parties.</div>
+        <a href="jcc.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/specpol-800w.png" alt="SPECPOL" class="committee-img" />
+        <div class="committee-title">SPECPOL</div>
+        <div class="committee-desc">Special Political and Decolonization Committee — Discuss peacekeeping, decolonization, and outer space.</div>
+        <a href="specpol.html" class="committee-btn">Learn More</a>
+      </div>
+      <div class="committee-card">
+        <img src="public/un-logo-800w.png" alt="UNSCPDG" class="committee-img" />
+        <div class="committee-title">UNSCPDG</div>
+        <div class="committee-desc">UN Security Council Peacebuilding and Development Group — Foster post-conflict recovery and sustainable development.</div>
+        <a href="unscpdg.html" class="committee-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer1-wrapper
           class="footer1-wrapper"
           rootclassname="footer1undefined"
           ><!--Footer1 component-->
@@ -596,11 +364,7 @@
             </div>
           </footer></footer1-wrapper
         >
-      </div>
-    </div>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
+
+  <script defer src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+</body>
 </html>
